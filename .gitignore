@@ -1,3 +1,23 @@
-__pycache__
-student_env
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+student_env/
+venv/
+.env/
+
+# Environment configuration
+*.env
+
+# MacOS system file
 .DS_Store
+
+# VSCode or editor settings (optional)
+.vscode/
+.idea/
+
+# Logs
+*.log

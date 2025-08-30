@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/",tags=["Root"])
 def read_root():
-    return 'hey'
+    return 'Message: Welcome to the Student API!'
